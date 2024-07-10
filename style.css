@@ -84,6 +84,7 @@ nav button{
     align-items: center;
     flex-direction: column;
     margin: auto;
+    gap: 20px;
 }
 .first-container{
     display: flex;
@@ -103,6 +104,7 @@ nav button{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
 }
 .learnmore-btn{
     width: 149px;
@@ -112,5 +114,33 @@ nav button{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.623);
 }
+
+    /* inspiration section style start*/
+.inspiration-section{
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+}
+.inspiration-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.inspiration-section div h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-section div p{
+    color: rgba(13, 19, 33, 0.658);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+  /* inspiration section style end*/
+
 
 
