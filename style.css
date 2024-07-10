@@ -117,7 +117,7 @@ nav button{
 
     /* inspiration section style start*/
 .inspiration-section{
-    
+
     width: 1140px;
     height: 777px;
     display: flex;
@@ -236,12 +236,6 @@ nav button{
     gap: 15px;
 }
 
-
-
-
-
-
-
 .last-container{
     width: 1140px;
     height: 314px;
@@ -287,5 +281,14 @@ nav button{
     border: none;
 }
 
+#footer{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+
+}
 
 
