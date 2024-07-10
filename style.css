@@ -8,12 +8,10 @@
 body{
     font-family: "Azeret Mono", monospace;
     max-width: 1440px;
-    margin: 0 auto;
 }
-
  /* Header Section Style Start */
 header{
-    width: 1440px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
 }
@@ -77,7 +75,6 @@ nav button{
     /* Headder Section Style End */
 
 /* Main Section Style Start */
-
 .parent-container{
     width: 946px;
     height: 1235px;
@@ -117,9 +114,8 @@ nav button{
     color: rgba(0, 0, 0, 0.623);
 }
 
-    /* inspiration section style start*/
+/* inspiration section style start*/
 .inspiration-section{
-
     width: 1140px;
     height: 777px;
     display: flex;
@@ -146,7 +142,6 @@ nav button{
 .inspiration-section div iframe{
     border-radius: 20px;
 }
-
   /* inspiration section style end*/
 
 /* My Target Section Start */
@@ -199,15 +194,13 @@ nav button{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+    /* My Target Section End */
 
-/* My Target Section End */
-
-
-
+/* My Next Target Section Start */
 .my-next-target-section{
     width: 1140px;
     height: 870px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -237,7 +230,9 @@ nav button{
     flex-direction: column;
     gap: 15px;
 }
+    /* My Next Target Section End */
 
+/* Last Container Start */
 .last-container{
     width: 1140px;
     height: 314px;
@@ -247,7 +242,7 @@ nav button{
     align-items: center;
     text-align: center;
     gap: 40px;
-    margin: auto;
+    margin: 20px auto;
     background: url("assets/handshake.jpg");
     background-size: cover;
     background-position: center;
@@ -266,7 +261,6 @@ nav button{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.671);
 }
-
 #input-text{
     width: 548px;
     height: 57px;
@@ -282,15 +276,15 @@ nav button{
     border-radius: 10px;
     border: none;
 }
+    /* Last Container End */
 
+/* footer Section Start */
 #footer{
-    width: 1440px;
+    max-width: 1440px;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-
 }
-
-
+/* footer Section End */
