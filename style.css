@@ -78,7 +78,7 @@ nav button{
 /* Main Section Style Start */
 
 main{
-    max-width: 1440px;
+    width: 1440px;
     margin: 50px auto;
 }
 .parent-container{
@@ -286,7 +286,7 @@ main{
 
 /* footer Section Start */
 #footer{
-    max-width: 1440px;
+    width: 1440px;
     height: 100px;
     display: flex;
     justify-content: space-between;
