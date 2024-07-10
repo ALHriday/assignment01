@@ -123,6 +123,7 @@ nav button{
     flex-direction: column;
     gap: 50px;
     margin: auto;
+    padding: 20px;
 }
 .inspiration-section div{
     display: flex;
@@ -139,8 +140,151 @@ nav button{
     font-size: 16px;
     font-weight: 400;
 }
+.inspiration-section div iframe{
+    border-radius: 20px;
+}
 
   /* inspiration section style end*/
+
+/* My Target Section Start */
+.my-target-section{
+    width: 1140px;
+    height: 463px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px auto;
+}
+.my-target-text-part{
+    text-align: center;
+}
+.my-target-img-part{
+    display: flex;
+    justify-content: space-between;
+}
+.my-target-text-part h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.my-target-text-part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.623);
+}
+.target-img1, .target-img2, .target-img3{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px;
+}
+.my-target-img-part div img{
+    width: 56px;
+    height: 56px;
+}
+.target-img1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-img2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-img3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* My Target Section End */
+
+
+
+.my-next-target-section{
+    width: 1140px;
+    height: 870px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.next-target-text-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.next-target-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card1, .card2, .card3{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+}
+.card1-title, .card2-title, .card3-title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+.last-container{
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin: auto;
+    background: url("assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 20px;
+}
+.last-container-heading h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.last-container-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+#input-text{
+    width: 548px;
+    height: 57px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#submit-btn{
+    width: 120px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
 
 
 
