@@ -76,7 +76,41 @@ nav button{
 
 /* Main Section Style Start */
 
-
-
+.parent-container{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+.second-container, .third-container, .fourth-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-container div, .third-container div, .fourth-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learnmore-btn{
+    width: 149px;
+    height: 48px;
+    padding: 12px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+}
 
 
